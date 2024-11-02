@@ -38,7 +38,7 @@ _UART_SERVICE = (
 
 
 class BLESimplePeripheral:
-    def __init__(self, ble, name="robo_lab"):
+    def __init__(self, ble, name="HAN_XXXX"):
         self._ble = ble
         self._ble.active(True)
         self._ble.irq(self._irq)

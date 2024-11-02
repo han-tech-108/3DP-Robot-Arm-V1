@@ -13,9 +13,6 @@ class ServoControl:
     DUTY_MAX = 65535
     FREQ = 50  #Hz
     FREQ_TIME = 20  # ms
-    # SG90_MIN = 0.5
-    # SG90_CENTOR = 1.5
-    # SG90_MAX = 2.5
     ANGLE_0 = int(0.5 / FREQ_TIME * DUTY_MAX)
     ANGLE_45 = int(1.0 / FREQ_TIME * DUTY_MAX)
     ANGLE_90 = int(1.5 / FREQ_TIME * DUTY_MAX)
